@@ -1,0 +1,26 @@
+# Playback Speed
+
+## Description
+This program was created as part of the CS50 Python problem set.
+
+The program takes a line of text as input from the user and converts the text into a slower playback format by replacing each space with three dots (`...`). This simulates the effect of slowing down speech.
+
+## How It Works
+1. The program asks the user to input a sentence.
+2. It replaces every space in the sentence with `...`.
+3. The modified sentence is then printed as output.
+
+## Example
+
+Input: This is CS50
+
+Output:
+
+This...is...CS50
+
+
+## File
+- `playback.py` – Python program that performs the playback conversion.
+
+## Author
+Caroline Mildred Gomes
