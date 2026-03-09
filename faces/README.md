@@ -1,0 +1,26 @@
+# Faces
+
+## Description
+This program is part of the CS50 Python problem set. It converts text emoticons into graphical emoji equivalents.
+
+If the user types certain emoticons such as `:)` or `:(`, the program replaces them with their corresponding emoji.
+
+## How It Works
+1. The program asks the user to input a line of text.
+2. It searches for emoticons in the text.
+3. The emoticons are replaced with the appropriate emoji.
+4. The updated text is printed as output.
+
+## Example
+
+Input:
+Hello :)
+
+Output:
+Hello 🙂
+
+## File
+- `faces.py` – Python program that converts emoticons into emoji.
+
+## Author
+Caroline Mildred Gomes
