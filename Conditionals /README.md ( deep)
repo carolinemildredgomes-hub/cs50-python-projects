@@ -1,0 +1,46 @@
+# The Great Question Checker
+
+## Description
+This Python program prompts the user for the "Answer to the Great Question of Life, the Universe, and Everything" and responds with `Yes` or `No`.
+
+The project demonstrates the use of string handling, conditionals, and user input processing in Python.
+
+## Features
+- Takes input from the user
+- Checks for multiple correct answers (`42`, `forty-two`, `forty two`) case-insensitively
+- Prints `Yes` if correct, otherwise `No`
+
+## Technologies Used
+- Python 3
+
+## How It Works
+1. The user is prompted to enter the answer.
+2. The input is normalized to lowercase and stripped of extra spaces.
+3. The program compares the input against the accepted answers.
+4. Prints `Yes` or `No` accordingly.
+
+## Example Output
+
+Enter the answer:  
+42
+
+Output:  
+Yes
+
+Enter the answer:  
+hello
+
+Output:  
+No
+
+## How To Run
+
+Run the program with:
+
+```bash
+python deep.py
+
+
+Author
+
+Caroline Mildred Gomes
