@@ -1,0 +1,58 @@
+
+---
+
+## 4️⃣ **interpreter.py – Simple Math Interpreter**
+
+```markdown
+# Simple Math Interpreter
+
+## Description
+This Python program allows users to perform simple arithmetic operations without knowing Python syntax.
+
+The project demonstrates string splitting, type conversion, conditional logic, and formatted output.
+
+## Features
+- Takes a math expression in the format `x y z` (e.g., `1 + 1`)
+- Supports operators: +, -, *, /
+- Outputs the result as a floating-point number with one decimal place
+
+## Technologies Used
+- Python 3
+
+## How It Works
+1. The user enters an arithmetic expression.
+2. The program splits the input into `x`, `operator`, and `z`.
+3. Converts `x` and `z` to integers.
+4. Performs the operation based on the operator.
+5. Prints the result formatted to one decimal place.
+
+## Example Output
+
+Enter expression:  
+1 + 1
+
+Output:  
+2.0
+
+Enter expression:  
+10 / 4
+
+Output:  
+2.5
+
+Enter expression:  
+5 * 6
+
+Output:  
+30.0
+
+## How To Run
+
+Run the program with:
+
+```bash
+python interpreter.py
+
+Author
+
+Caroline Mildred Gomes
