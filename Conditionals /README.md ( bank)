@@ -1,0 +1,115 @@
+
+---
+
+## 2️⃣ **bank.py – Kramer's Bank**
+
+```markdown
+# Kramer's Bank
+
+## Description
+This Python program simulates the "greeting bank" from Seinfeld. It determines how much money Kramer should receive based on the greeting he receives.
+
+The project demonstrates string methods, conditional logic, and input handling.
+
+## Features
+- Takes a greeting as input
+- Checks if it starts with "hello", "h", or other letters
+- Outputs $0, $20, or $100 accordingly
+- Case-insensitive and ignores leading whitespace
+
+## Technologies Used
+- Python 3
+
+## How It Works
+1. The user enters a greeting.
+2. The program normalizes the input (lowercase + stripped spaces).
+3. It checks:
+   - Starts with "hello" → $0
+   - Starts with "h" but not "hello" → $20
+   - Otherwise → $100
+4. Prints the result.
+
+## Example Output
+
+Enter greeting:  
+hello there
+
+Output:  
+$0
+
+Enter greeting:  
+hey
+
+Output:  
+$20
+
+Enter greeting:  
+good morning
+
+Output:  
+$100
+
+## How To Run
+
+Run the program with:
+
+```bash
+python bank.py
+
+
+---
+
+## 2️⃣ **bank.py – Kramer's Bank**
+
+```markdown
+# Kramer's Bank
+
+## Description
+This Python program simulates the "greeting bank" from Seinfeld. It determines how much money Kramer should receive based on the greeting he receives.
+
+The project demonstrates string methods, conditional logic, and input handling.
+
+## Features
+- Takes a greeting as input
+- Checks if it starts with "hello", "h", or other letters
+- Outputs $0, $20, or $100 accordingly
+- Case-insensitive and ignores leading whitespace
+
+## Technologies Used
+- Python 3
+
+## How It Works
+1. The user enters a greeting.
+2. The program normalizes the input (lowercase + stripped spaces).
+3. It checks:
+   - Starts with "hello" → $0
+   - Starts with "h" but not "hello" → $20
+   - Otherwise → $100
+4. Prints the result.
+
+## Example Output
+
+Enter greeting:  
+hello there
+
+Output:  
+$0
+
+Enter greeting:  
+hey
+
+Output:  
+$20
+
+Enter greeting:  
+good morning
+
+Output:  
+$100
+
+## How To Run
+
+Run the program with:
+
+```bash
+python bank.py
