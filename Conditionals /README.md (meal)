@@ -1,0 +1,68 @@
+
+---
+
+## 5️⃣ **meal.py – Meal Time Notifier**
+
+```markdown
+# Meal Time Notifier
+
+## Description
+This Python program tells the user which meal it is based on the input time.
+
+The project demonstrates functions, string parsing, arithmetic operations, and conditionals.
+
+## Features
+- Accepts time input in 24-hour format (`#:##` or `##:##`)
+- Determines meal time:
+  - Breakfast → 7:00–8:00
+  - Lunch → 12:00–13:00
+  - Dinner → 18:00–19:00
+- Outputs nothing if it is not meal time
+- Uses a `convert` function to turn time into a floating-point number
+
+## Technologies Used
+- Python 3
+
+## How It Works
+1. The user enters a time.
+2. `convert` function parses the string into hours and minutes, converting minutes into fractions of an hour.
+3. The program checks which meal range the time falls into.
+4. Prints the corresponding meal, or nothing if outside meal times.
+
+## Example Output
+
+Enter time:  
+7:30
+
+Output:  
+Breakfast time
+
+Enter time:  
+12:15
+
+Output:  
+Lunch time
+
+Enter time:  
+18:45
+
+Output:  
+Dinner time
+
+Enter time:  
+9:15
+
+Output:  
+(nothing)
+
+## How To Run
+
+Run the program with:
+
+```bash
+python meal.py
+
+
+Author
+
+Caroline Mildred Gomes
