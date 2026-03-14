@@ -1,0 +1,59 @@
+
+---
+
+## 3️⃣ **extensions.py – File Media Type Detector**
+
+```markdown
+# File Media Type Detector
+
+## Description
+This Python program determines a file's media type based on its extension.
+
+The project demonstrates string manipulation, conditional statements, and input handling.
+
+## Features
+- Takes a file name as input
+- Detects common file extensions (.gif, .jpg, .jpeg, .png, .pdf, .txt, .zip)
+- Outputs the corresponding media type
+- Defaults to `application/octet-stream` for unknown extensions
+- Case-insensitive
+
+## Technologies Used
+- Python 3
+
+## How It Works
+1. The user enters a file name.
+2. The program normalizes the input (lowercase + stripped spaces).
+3. It checks the file extension against known types.
+4. Prints the corresponding media type or default if unknown.
+
+## Example Output
+
+Enter file name:  
+photo.jpeg
+
+Output:  
+image/jpeg
+
+Enter file name:  
+archive.zip
+
+Output:  
+application/zip
+
+Enter file name:  
+song.mp3
+
+Output:  
+application/octet-stream
+
+## How To Run
+
+Run the program with:
+
+```bash
+python extensions.py
+
+Author
+
+Caroline Mildred Gomes
