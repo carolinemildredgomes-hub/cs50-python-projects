@@ -1,0 +1,64 @@
+# 🍎 Nutrition Calculator
+
+## 📌 Description
+
+This Python program allows users to input the name of a fruit and returns the number of calories per portion based on standard nutritional data.
+
+---
+
+## 🎯 Objective
+
+To practice:
+
+* Dictionary usage
+* User input handling
+* Case-insensitive matching
+
+---
+
+## ⚙️ How It Works
+
+1. A dictionary stores fruit names as keys and their calorie values.
+2. The user inputs a fruit name.
+3. The input is converted to lowercase to ensure consistency.
+4. The program checks if the fruit exists in the dictionary.
+5. If found, it prints the calorie value.
+
+---
+
+## 🧠 Concepts Used
+
+* Dictionaries (`key: value`)
+* String methods (`lower()`)
+* Conditional statements
+* Membership operator (`in`)
+
+---
+
+## ▶️ Example
+
+**Input:**
+
+```id="n1"
+Apple
+```
+
+**Output:**
+
+```id="n2"
+130
+```
+
+---
+
+## 🚀 How to Run
+
+```id="n3"
+python nutrition.py
+```
+
+---
+
+## 👩‍💻 Author
+
+**Caroline Mildred Gomes**
