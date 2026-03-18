@@ -1,0 +1,72 @@
+# 🔤 Camel Case to Snake Case Converter
+
+## 📌 Description
+
+This Python program converts variable names from **camelCase** format to **snake_case**, following Python’s recommended naming conventions.
+
+In camelCase, the first word is lowercase and subsequent words start with uppercase letters (e.g., `firstName`). In snake_case, words are separated by underscores and all letters are lowercase (e.g., `first_name`).
+
+---
+
+## 🎯 Objective
+
+To understand and implement:
+
+* String iteration
+* Conditional logic
+* Character transformation
+
+---
+
+## ⚙️ How It Works
+
+1. The user inputs a variable name in camelCase.
+2. The program iterates through each character.
+3. If an uppercase letter is found:
+
+   * It adds an underscore `_`
+   * Converts the letter to lowercase
+4. Otherwise, it prints the character as it is.
+5. The final output is displayed in snake_case.
+
+---
+
+## 🧠 Concepts Used
+
+* `for` loops
+* String methods:
+
+  * `isupper()`
+  * `lower()`
+* Conditional statements (`if`, `else`)
+* Output formatting (`end=""`)
+
+---
+
+## ▶️ Example
+
+**Input:**
+
+```id="c1"
+firstName
+```
+
+**Output:**
+
+```id="c2"
+first_name
+```
+
+---
+
+## 🚀 How to Run
+
+```id="c3"
+python camel.py
+```
+
+---
+
+## 👩‍💻 Author
+
+**Caroline Mildred Gomes**
