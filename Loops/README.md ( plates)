@@ -1,0 +1,85 @@
+# 🚗 Vanity License Plate Validator
+
+## 📌 Description
+
+This Python program validates a custom license plate based on a set of predefined rules similar to real-world vanity plate requirements.
+
+---
+
+## 🎯 Objective
+
+To build strong logic using:
+
+* Multiple conditions
+* String validation
+* Loop-based checking
+
+---
+
+## 📏 Validation Rules
+
+* Must contain **2–6 characters**
+* Must start with **at least two letters**
+* Numbers must appear **only at the end**
+* First number cannot be **0**
+* No special characters allowed
+
+---
+
+## ⚙️ How It Works
+
+1. The user inputs a license plate.
+2. The program checks:
+
+   * Length constraints
+   * First two characters are letters
+   * Only alphanumeric characters are used
+3. It iterates through each character:
+
+   * Tracks when numbers start
+   * Ensures no letters appear after numbers
+   * Ensures first number is not `0`
+4. Returns **Valid** or **Invalid**
+
+---
+
+## 🧠 Concepts Used
+
+* Functions
+* Boolean logic
+* String methods:
+
+  * `isalpha()`
+  * `isdigit()`
+  * `isalnum()`
+* Loops and condition tracking
+
+---
+
+## ▶️ Example
+
+**Input:**
+
+```id="p1"
+CS50
+```
+
+**Output:**
+
+```id="p2"
+Valid
+```
+
+---
+
+## 🚀 How to Run
+
+```id="p3"
+python plates.py
+```
+
+---
+
+## 👩‍💻 Author
+
+**Caroline Mildred Gomes**
