@@ -1,0 +1,61 @@
+# 🐦 Text Vowel Remover (Twttr Style)
+
+## 📌 Description
+
+This Python program removes all vowels from a given string, mimicking the shortened text style often used in messaging and social media.
+
+---
+
+## 🎯 Objective
+
+To practice:
+
+* String filtering
+* Character-by-character processing
+
+---
+
+## ⚙️ How It Works
+
+1. The user inputs a string.
+2. The program loops through each character.
+3. If the character is NOT a vowel (`A, E, I, O, U` in both cases), it is printed.
+4. Vowels are skipped.
+
+---
+
+## 🧠 Concepts Used
+
+* `for` loops
+* Conditional statements
+* String membership (`in`, `not in`)
+
+---
+
+## ▶️ Example
+
+**Input:**
+
+```id="t1"
+Twitter
+```
+
+**Output:**
+
+```id="t2"
+Twttr
+```
+
+---
+
+## 🚀 How to Run
+
+```id="t3"
+python twttr.py
+```
+
+---
+
+## 👩‍💻 Author
+
+**Caroline Mildred Gomes**
