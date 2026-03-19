@@ -1,0 +1,69 @@
+# 🥤 Coke Vending Machine Simulator
+
+## 📌 Description
+
+This Python program simulates a vending machine that accepts coins until the total reaches 50 cents, then returns the appropriate change.
+
+---
+
+## 🎯 Objective
+
+To understand:
+
+* Loop control
+* Input validation
+* Real-world problem simulation
+
+---
+
+## ⚙️ How It Works
+
+1. The machine starts with an amount due of **50 cents**.
+2. The user is prompted to insert coins.
+3. Only accepts:
+
+   * 25 cents
+   * 10 cents
+   * 5 cents
+4. Valid coins are subtracted from the amount.
+5. The process repeats until the amount is paid.
+6. If extra money is inserted, change is returned.
+
+---
+
+## 🧠 Concepts Used
+
+* `while` loops
+* Conditional statements
+* Arithmetic operations
+* Input validation
+
+---
+
+## ▶️ Example
+
+**Input:**
+
+```id="co1"
+25 → 25
+```
+
+**Output:**
+
+```id="co2"
+Change Owed: 0
+```
+
+---
+
+## 🚀 How to Run
+
+```id="co3"
+python coke.py
+```
+
+---
+
+## 👩‍💻 Author
+
+**Caroline Mildred Gomes**
