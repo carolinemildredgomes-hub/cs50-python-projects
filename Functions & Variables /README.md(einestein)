@@ -1,0 +1,24 @@
+Einstein
+Description
+This program calculates the amount of energy equivalent to a given mass using Einstein's famous equation:
+
+E = mc²
+
+where:
+
+E = energy
+m = mass
+c = speed of light (300000000 meters per second)
+How It Works
+The program asks the user to input a mass in kilograms.
+It calculates the energy using the formula E = m × c².
+The energy value is printed as output.
+Example
+Input: 1
+
+Output: 90000000000000000
+
+File
+einstein.py – Python program that calculates energy from mass.
+Author
+Caroline Mildred Gomes
