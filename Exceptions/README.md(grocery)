@@ -1,0 +1,68 @@
+# 🛒 Grocery List
+
+## 📌 Description
+
+This program allows users to create a grocery list by entering items repeatedly. It counts how many times each item is entered and displays the final list in alphabetical order.
+
+---
+
+## 🚀 Features
+
+* Accepts multiple inputs
+* Case-insensitive item handling
+* Counts duplicate items
+* Outputs sorted list alphabetically
+* Displays results in uppercase
+* Ends input using Ctrl+D
+
+---
+
+## 🧠 Concepts Used
+
+* Dictionaries (counting pattern)
+* Loops (`while True`)
+* Exception handling (`EOFError`)
+* String methods (`lower`, `upper`)
+* Sorting (`sorted()`)
+
+---
+
+## ⚙️ How It Works
+
+1. Program takes item input repeatedly
+2. Converts input to lowercase
+3. Stores items in dictionary with count
+4. If item exists → increment count
+5. If new → set count to 1
+6. On Ctrl+D → stop input
+7. Sort items alphabetically
+8. Print count + uppercase item
+
+---
+
+## ▶️ Example
+
+```
+Input:
+apple
+banana
+apple
+milk
+
+Output:
+2 APPLE
+1 BANANA
+1 MILK
+```
+
+---
+
+## 🛠️ Technologies
+
+* Python 3
+
+---
+
+## ✍️ Author
+
+Caroline Mildred Gomes
