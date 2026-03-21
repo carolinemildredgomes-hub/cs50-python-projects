@@ -1,0 +1,68 @@
+# 🌮 Felipe’s Taqueria
+
+## 📌 Description
+
+This program simulates a food ordering system based on a menu. Users can input food items one by one, and the program calculates the total cost dynamically.
+
+---
+
+## 🚀 Features
+
+* Menu-based ordering system
+* Case-insensitive input handling
+* Continuous input until Ctrl+D
+* Ignores invalid menu items
+* Displays running total after each valid order
+* Formats output as currency
+
+---
+
+## 🧠 Concepts Used
+
+* Dictionaries (menu storage)
+* Loops (`while True`)
+* Exception handling (`EOFError`)
+* String methods (`title`)
+* Conditional logic
+* Output formatting
+
+---
+
+## ⚙️ How It Works
+
+1. Menu is stored as a dictionary (`item → price`)
+2. Program continuously asks for input
+3. Converts input to title case
+4. Checks if item exists in menu
+5. Adds price to total if valid
+6. Prints updated total
+7. Ends when Ctrl+D is pressed
+
+---
+
+## ▶️ Example
+
+```
+Input:
+burrito
+taco
+water
+nachos
+
+Output:
+$7.50
+$10.50
+$21.50
+```
+
+---
+
+## 🛠️ Technologies
+
+* Python 3
+
+---
+
+## ✍️ Author
+
+Caroline Mildred Gomes
