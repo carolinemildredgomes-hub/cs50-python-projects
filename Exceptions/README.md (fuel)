@@ -1,0 +1,74 @@
+# ⛽ Fuel Gauge
+
+## 📌 Description
+
+This Python program simulates a fuel gauge system. It accepts a fraction input from the user (e.g., `1/2`, `3/4`) and converts it into a percentage representing how full a tank is.
+
+The program ensures input validation and handles errors gracefully using exception handling.
+
+---
+
+## 🚀 Features
+
+* Accepts input in `X/Y` format
+* Converts fraction to percentage
+* Rounds percentage to nearest integer
+* Displays:
+
+  * `E` if ≤ 1% (Empty)
+  * `F` if ≥ 99% (Full)
+  * Otherwise shows percentage (e.g., `75%`)
+* Handles invalid input using exceptions
+* Re-prompts user until valid input is given
+
+---
+
+## 🧠 Concepts Used
+
+* Exception Handling (`try`, `except`)
+* Loops (`while True`)
+* String manipulation (`split`)
+* Type conversion (`int`)
+* Conditional statements
+
+---
+
+## ⚙️ How It Works
+
+1. User enters a fraction (e.g., `3/4`)
+2. Program splits input into numerator and denominator
+3. Converts values into integers
+4. Calculates percentage
+5. Applies conditions:
+
+   * ≤1 → `E`
+   * ≥99 → `F`
+   * Else → prints percentage
+6. If input is invalid → program retries
+
+---
+
+## ▶️ Example
+
+```
+Input: 1/2
+Output: 50%
+
+Input: 0/100
+Output: E
+
+Input: 99/100
+Output: F
+```
+
+---
+
+## 🛠️ Technologies
+
+* Python 3
+
+---
+
+## ✍️ Author
+
+Caroline Mildred Gomes
