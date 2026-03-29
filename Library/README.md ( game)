@@ -1,0 +1,82 @@
+# 🎯 Guessing Game
+
+## 📌 Description
+
+This Python program is an interactive number guessing game where the user tries to guess a randomly generated number.
+
+---
+
+## 🎯 Objective
+
+To practice:
+
+* Loops and repetition
+* Conditional statements
+* Random number generation
+* Input validation
+
+---
+
+## 📏 Program Rules
+
+* User inputs a positive number (level)
+* Program generates number between **1 and level**
+* User guesses repeatedly
+* Provides feedback:
+  * Too small!
+  * Too large!
+* Ends when correct guess is made
+
+---
+
+## ⚙️ How It Works
+
+1. User enters a level
+2. Program generates a random number
+3. User enters guesses
+4. Program compares guess with number
+5. Gives feedback until correct
+6. Ends with success message
+
+---
+
+## 🧠 Concepts Used
+
+* `random.randint()`
+* `while` loops
+* Conditional statements
+* Exception handling (`try/except`)
+* Input validation
+
+---
+
+## ▶️ Example
+
+**Input:**
+
+Level: 100
+Guess: 50
+
+
+**Output:**
+
+Too small!
+Guess: 75
+Too large!
+Guess: 62
+Just right!
+
+
+---
+
+## 🚀 How to Run
+
+
+python game.py
+
+
+---
+
+## 👩‍💻 Author
+
+**Caroline Mildred Gomes**
