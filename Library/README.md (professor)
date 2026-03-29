@@ -1,0 +1,83 @@
+# 🧮 Little Professor
+
+## 📌 Description
+
+This Python program simulates a classic educational toy called the “Little Professor,” which generates random math problems for users to solve.
+
+---
+
+## 🎯 Objective
+
+To practice core programming concepts including:
+
+* Loops and repetition
+* Conditional logic
+* Random number generation
+* Input validation and exception handling
+
+---
+
+## 📏 Program Rules
+
+* User must choose a level: **1, 2, or 3**
+* Generates **10 math problems**
+* Each problem allows **up to 3 attempts**
+* Displays **EEE** for incorrect answers
+* Shows correct answer after 3 failed attempts
+* Final score is displayed
+
+---
+
+## ⚙️ How It Works
+
+1. User inputs a level (1, 2, or 3)
+2. Program generates random numbers based on level:
+   * Level 1 → 0–9
+   * Level 2 → 10–99
+   * Level 3 → 100–999
+3. Displays math problems (X + Y)
+4. User gets 3 chances per problem
+5. Tracks correct answers
+6. Displays total score
+
+---
+
+## 🧠 Concepts Used
+
+* Functions
+* Loops (`for`, `while`)
+* Exception handling (`try/except`)
+* Random module:
+  * `random.randint()`
+* Input validation
+
+---
+
+## ▶️ Example
+
+**Input:**
+Level: 1
+
+
+**Output:**
+
+4 + 3 = 7
+2 + 5 = 7
+EEE
+...
+Score: 8
+
+
+---
+
+## 🚀 How to Run
+
+
+python professor.py
+
+
+---
+
+## 👩‍💻 Author
+
+**Caroline Mildred Gomes**
