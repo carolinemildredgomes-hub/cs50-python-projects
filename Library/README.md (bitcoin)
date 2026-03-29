@@ -1,0 +1,78 @@
+# ₿ Bitcoin Price Calculator
+
+## 📌 Description
+
+This Python program calculates the total cost of purchasing Bitcoin using real-time data from the CoinCap API.
+
+---
+
+## 🎯 Objective
+
+To understand:
+
+* API integration
+* Command-line arguments
+* JSON data handling
+* Error handling
+
+---
+
+## 📏 Program Rules
+
+* Accepts Bitcoin amount via command-line argument
+* Must be a valid number
+* Fetches real-time Bitcoin price
+* Outputs total cost in USD
+* Displays result with:
+  * Comma separator
+  * 4 decimal places
+
+---
+
+## ⚙️ How It Works
+
+1. User runs program with Bitcoin amount
+2. Program validates input
+3. Sends request to CoinCap API
+4. Extracts Bitcoin price from JSON
+5. Calculates total cost
+6. Displays formatted result
+
+---
+
+## 🧠 Concepts Used
+
+* `sys.argv`
+* `requests` library
+* JSON parsing
+* Exception handling
+* String formatting:
+  * `f"{amount:,.4f}"`
+
+---
+
+## ▶️ Example
+
+**Input:**
+
+python bitcoin.py 2
+
+
+**Output:**
+
+$195,690.0487
+
+
+---
+
+## 🚀 How to Run
+
+
+python bitcoin.py 2
+
+
+---
+
+## 👩‍💻 Author
+
+**Caroline Mildred Gomes**
