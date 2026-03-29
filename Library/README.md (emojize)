@@ -1,0 +1,59 @@
+# 😄 Emojize - Text to Emoji Converter
+
+## 📌 Description
+This Python program converts text-based emoji codes into actual emojis.
+
+For example, users can type `:thumbs_up:` or `:thumbsup:` and the program will automatically convert it into 👍.
+
+This project demonstrates the use of third-party Python libraries to simplify complex tasks.
+
+---
+
+## 🎯 Objective
+- Learn how to use external Python packages
+- Understand how to install and import libraries
+- Work with string input and transformation
+
+---
+
+## 🛠️ Technologies Used
+- Python 3
+- emoji (third-party package)
+
+---
+
+## 📦 Installation
+
+Install the required package using pip:
+
+```bash
+pip install emoji
+
+🚀 How to Run
+python emojize.py
+💡 How It Works
+The program prompts the user for input text.
+It scans the text for emoji codes (e.g., :smile:).
+Using the emoji library, it converts codes into actual emojis.
+The final emojized text is displayed.
+🧪 Example
+
+Input:
+
+I love coding :thumbsup:
+
+Output:
+
+I love coding 👍
+🧠 Key Concepts Learned
+Importing and using third-party libraries
+Handling user input
+String processing
+Using built-in library functions efficiently
+🔗 Related Learning
+
+This project is part of learning Python libraries and package management using pip.
+
+👩‍💻 Author
+
+Caroline Mildred Gomes
