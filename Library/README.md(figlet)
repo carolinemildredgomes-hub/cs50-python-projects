@@ -1,0 +1,76 @@
+# 🔤 FIGlet Text Generator (ASCII Art)
+
+## 📌 Description
+This Python program converts normal text into large stylized ASCII art using different fonts.
+
+It is based on the classic FIGlet program and uses the `pyfiglet` library to render text in visually appealing formats directly in the terminal.
+
+---
+
+## 🎯 Objective
+- Learn how to use third-party Python libraries
+- Work with command-line arguments (`sys.argv`)
+- Implement input validation and error handling
+- Use randomness to enhance program functionality
+
+---
+
+## 🛠️ Technologies Used
+- Python 3
+- pyfiglet (third-party package)
+
+---
+
+## 📦 Installation
+
+Install the required package using pip:
+
+```bash
+pip install pyfiglet
+
+
+🚀 How to Run
+▶️ Random Font
+python figlet.py
+▶️ Specific Font
+python figlet.py -f slant
+
+or
+
+python figlet.py --font slant
+💡 How It Works
+The program checks command-line arguments:
+No arguments → selects a random font
+Two arguments → uses a specific font
+If arguments are invalid, the program exits with an error message
+The user inputs text
+The program outputs the text in a stylized ASCII font
+🧪 Example
+Input:
+Hello
+Output:
+ _   _      _
+| | | | ___| | ___
+| |_| |/ _ \ |/ _ \
+|  _  |  __/ | (_) |
+|_| |_|\___|_|\___/
+⚠️ Error Handling
+
+The program handles:
+
+Invalid number of arguments
+Incorrect flags (only -f or --font allowed)
+Invalid font names
+🧠 Key Concepts Learned
+Command-line arguments (sys.argv)
+Conditional statements
+Random selection using random.choice()
+Using external libraries effectively
+Writing clean and user-friendly programs
+🔗 Related Learning
+
+This project is part of learning Python libraries and demonstrates how powerful external packages can simplify complex tasks like text rendering.
+
+👩‍💻 Author
+
+Caroline Mildred Gomes
