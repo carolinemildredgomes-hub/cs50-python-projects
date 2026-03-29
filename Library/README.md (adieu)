@@ -1,0 +1,76 @@
+# 🎵 Adieu Song Formatter
+
+## 📌 Description
+
+This Python program formats a farewell message inspired by *The Sound of Music*, correctly handling multiple names using proper English grammar.
+
+---
+
+## 🎯 Objective
+
+To learn:
+
+* Working with lists
+* Handling EOF input
+* Using external libraries
+* String formatting
+
+---
+
+## 📏 Program Rules
+
+* Accepts multiple names (one per line)
+* Stops input on EOF (Ctrl+D)
+* Outputs formatted sentence:
+  * 1 name → no comma
+  * 2 names → "and"
+  * 3+ names → Oxford comma
+
+---
+
+## ⚙️ How It Works
+
+1. Prompts user for names
+2. Stores names in a list
+3. Stops input when EOF is detected
+4. Uses `inflect` library to format names
+5. Prints final farewell message
+
+---
+
+## 🧠 Concepts Used
+
+* Lists
+* Loops
+* Exception handling (`EOFError`)
+* `inflect` library:
+  * `join()`
+
+---
+
+## ▶️ Example
+
+**Input:**
+Name: Liesl
+Name: Friedrich
+Name:
+
+
+**Output:**
+
+Adieu, adieu, to Liesl and Friedrich
+
+
+---
+
+## 🚀 How to Run
+
+
+python adieu.py
+
+
+---
+
+## 👩‍💻 Author
+
+**Caroline Mildred Gomes**
