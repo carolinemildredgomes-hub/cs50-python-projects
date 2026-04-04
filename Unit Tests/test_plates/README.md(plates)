@@ -1,0 +1,74 @@
+
+---
+
+# 📁 `test_plates/README.md`
+
+```markdown
+# 🚗 Vanity Plates Validator
+
+A CS50-style Python project designed to strengthen problem-solving, string validation, and unit testing skills.
+
+This project is based on **Python Functions, String Validation, and Pytest Unit Testing**.
+
+It simulates a **vehicle number plate validator** that checks whether a custom plate follows the required rules.
+
+---
+
+## 🎯 Project Objective
+
+The main objective of this project is to practice Python validation logic, functions, and modular coding in a beginner-friendly way.
+
+This project focuses on:
+
+* functions
+* string validation
+* loops
+* unit testing
+* CS50-style problem solving
+
+---
+
+## 📌 Features
+
+* 🚗 Validates custom number plates
+* 💻 Terminal-based interaction
+* ✨ Checks multiple validation rules
+* 🧪 Includes pytest unit tests
+* 🧩 Modular function design
+
+---
+
+## 🛠 Concepts Used
+
+### 📚 Python Concepts
+
+* `def`
+* `if / else`
+* `for loop`
+* `return`
+* `isalpha()`
+* `isdigit()`
+* `pytest`
+
+### 🧠 Core Concepts
+
+* validation logic
+* string methods
+* loops
+* functions
+* unit testing
+
+---
+
+## ▶️ How to Run
+
+```bash
+python plates.py
+pytest test_plates.py
+
+👩‍💻 Author
+
+Caroline Mildred Gomes
+
+Python Course Project
+CS50-style Practice Repository
