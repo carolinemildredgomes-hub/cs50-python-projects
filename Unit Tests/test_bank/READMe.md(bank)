@@ -1,0 +1,74 @@
+
+---
+
+# 📁 `test_bank/README.md`
+
+```markdown
+# 🏦 Back to the Bank
+
+A CS50-style Python project designed to strengthen problem-solving, conditional logic, and unit testing skills.
+
+This project is based on **Python Functions, Conditional Statements, and Pytest Unit Testing**.
+
+It simulates a **bank greeting checker** that returns different values depending on how the user greets.
+
+---
+
+## 🎯 Project Objective
+
+The main objective of this project is to practice Python functions, conditional logic, and modular coding in a beginner-friendly way.
+
+This project focuses on:
+
+* functions
+* conditionals
+* return values
+* unit testing
+* CS50-style problem solving
+
+---
+
+## 📌 Features
+
+* 🏦 Checks user greeting
+* 💻 Terminal-based interaction
+* ✨ Case-insensitive matching
+* 🧪 Includes pytest unit tests
+* 🧩 Modular function design
+
+---
+
+## 🛠 Concepts Used
+
+### 📚 Python Concepts
+
+* `def`
+* `if / elif / else`
+* `input()`
+* `print()`
+* `return`
+* `pytest`
+
+### 🧠 Core Concepts
+
+* conditional logic
+* functions
+* modular design
+* unit testing
+* string methods
+
+---
+
+## ▶️ How to Run
+
+```bash
+python bank.py
+pytest test_bank.py
+
+
+👩‍💻 Author
+
+Caroline Mildred Gomes
+
+Python Course Project
+CS50-style Practice Repository
